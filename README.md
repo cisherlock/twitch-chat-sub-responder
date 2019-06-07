@@ -1,3 +1,8 @@
+<p align="center">
+  <img src='https://nightofcode.com/github/night-of-code/twitch-chat-sub-responder/twitch-chat-sub-responder.jpg' />
+</p>
+
+
 ## Subscription Responder for Twitch Chat
 When someone subscribes to a Twitch channel, auto respond with a custom message of appreciation.
 
@@ -14,7 +19,7 @@ This repository is in no way affiliated with Twitch.
 ##### 2. Update config files
 You must update both files found in the **config** folder.
 
-    * channels.txt
+    **channels.txt**
     Contains channels and response messages. 1 channel per line. The file uses the following format:
     channel_name, response_message_new_subscriber, response_message_returning_subscriber
 
@@ -26,7 +31,7 @@ You must update both files found in the **config** folder.
     // output:  Welcome back @username You are a 15 month subscriber
     ```
 
-    * settings.txt
+    **settings.txt**
     Contains connection settings for Twitch IRC. You must update your username and oauth. You can generate your oauth token here:
     [https://twitchapps.com/tmi/](https://twitchapps.com/tmi/)
 
