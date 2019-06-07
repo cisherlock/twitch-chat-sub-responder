@@ -19,21 +19,20 @@ This repository is in no way affiliated with Twitch.
 ##### 2. Update config files
 You must update both files found in the **config** folder.
 
-    **channels.txt**
-    Contains channels and response messages. 1 channel per line. The file uses the following format:
-    channel_name, response_message_new_subscriber, response_message_returning_subscriber
+**channels.txt**
+Contains channels and response messages. 1 channel per line. The file uses the following format:
+channel_name, response_message_new_subscriber, response_message_returning_subscriber
+Response messages may contain the following place-holders: ##months##, ##username##
 
-    Response messages may contain the following place-holders: ##months##, ##username##
+Example:
+```
+Welcome back @##username## You are a ##months## month subscriber
+// output:  Welcome back @username You are a 15 month subscriber
+```
 
-    Example:
-    ```
-    Welcome back @##username## You are a ##months## month subscriber
-    // output:  Welcome back @username You are a 15 month subscriber
-    ```
-
-    **settings.txt**
-    Contains connection settings for Twitch IRC. You must update your username and oauth. You can generate your oauth token here:
-    [https://twitchapps.com/tmi/](https://twitchapps.com/tmi/)
+**settings.txt**
+Contains connection settings for Twitch IRC. You must update your username and oauth. You can generate your oauth token here:
+[https://twitchapps.com/tmi/](https://twitchapps.com/tmi/)
 
 ##### 3. Run
 ```
