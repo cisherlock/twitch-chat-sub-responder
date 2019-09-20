@@ -43,7 +43,7 @@ To end the program running in the terminal, press Ctrl+c twice.
 Designed to run locally or be deployed to Heroku.
 
 ## Author
-Craig Sherlock [@nightofcode](https://twitter.com/nightofcode)
+Craig Sherlock
 
 ## License
 twitch-chat-sub-responder is licensed under the GNU General Public License v2.0. See the LICENSE file for more info.
